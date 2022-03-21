@@ -64,7 +64,7 @@ class FunkinLua {
 		scriptName = script;
 		trace('Lua file loaded succesfully:' + script);
 
-		#if (haxe >= "4.0.0")
+		#if (haxe >= "4.2.4")
 		accessedProps = new Map();
 		#else
 		accessedProps = new Map<String, Dynamic>();
